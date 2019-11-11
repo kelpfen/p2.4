@@ -1,27 +1,30 @@
-Data binding basics - Starter Code
-==================================
+AndroidTrivia - final solution code
+===================================
 
-Use as starter code for the Data binding basics codelab.
-This is the same AboutMe app the you built in a previous codelab.
+This app is the solution code for Android Kotlin Fundamentals codelab 3.3:
+Invoke an external activity.
 
 Introduction
 ------------
+ 
+The AndroidTrivia app asks the user trivia questions about Android development.
+It makes use of the navigation component within Jetpack to move the user between
+screens. Each screen is implemented as a fragment.
 
-This starter app provides the completed AboutMe code.
-You will modify the app to use data binding techniques to
-eliminate calls to findViewById() and access data directly
-from views.
+The app navigates using buttons, the app bar, and a navigation drawer. Because
+students haven't yet learned about saving data or the Android lifecycle, the app
+tries to eliminate bugs caused by configuration changes.
 
-Pre-requisites
---------------
+Prerequisites
+-------------
 
 You need to know:
+- The fundamentals of Kotlin.
+- How to create basic Android apps in Kotlin.
 - How to open, build, and run apps with Android Studio.
-- How to create a basic app with one Activity and one layout
- that uses TextView, ScrollView, Button, EditText, and LinearLayout.
-- How to add a click handler to a Button.
+- How to work with layouts.
 
-Getting Started
+Getting started
 ---------------
 
 1. Download and run the app.
@@ -29,7 +32,7 @@ Getting Started
 License
 -------
 
-Copyright 2018 Google, Inc.
+Copyright 2019 Google, Inc.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
